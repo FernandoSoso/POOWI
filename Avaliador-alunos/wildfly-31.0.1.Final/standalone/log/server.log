@@ -1,0 +1,10 @@
+2024-04-08 23:19:23,192 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2024-04-08 23:19:23,280 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-04-08 23:19:23,283 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-04-08 23:19:23,284 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-04-08 23:19:23,285 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 31.0.1.Final (WildFly Core 23.0.3.Final) started in 25584ms - Started 280 of 522 services (317 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-04-08 23:19:35,298 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Avaliador-alunos" (runtime-name: "Avaliador-alunos.war")
+2024-04-08 23:19:35,936 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.7)
+2024-04-08 23:19:35,964 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = Avaliador-alunos.war_org.postgresql.Driver_42_7
+2024-04-08 23:19:36,011 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0021: Registered web context: '/Avaliador-alunos' for server 'default-server'
+2024-04-08 23:19:36,034 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "Avaliador-alunos" (runtime-name : "Avaliador-alunos.war")
