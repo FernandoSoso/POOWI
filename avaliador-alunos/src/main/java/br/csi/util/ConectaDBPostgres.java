@@ -10,11 +10,11 @@ public class ConectaDBPostgres {
 
         try{
             Class.forName("org.postgresql.Driver");
-            Connection conn = DriverManager.getConnection(
+            Connection con = DriverManager.getConnection(
                                     "jdbc:postgresql://localhost:5432/POOW1",
                                     "postgres",
                                     "1234");
-            return conn;
+            return con;
 
         }catch (ClassNotFoundException e){
             e.printStackTrace();

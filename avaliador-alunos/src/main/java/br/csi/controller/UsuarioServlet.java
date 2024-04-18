@@ -1,10 +1,8 @@
 package br.csi.controller;
 
-
-
-
 import br.csi.dao.UsuarioDAO;
 import br.csi.model.Usuario;
+import br.csi.service.UsuarioService;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -13,7 +11,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 
 @WebServlet("usuarios")
@@ -24,10 +21,7 @@ public class UsuarioServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-        System.out.println("Get para servlet USUÁRIO");
-
         UsuarioDAO dao = new UsuarioDAO();
-
 
         RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/usuarios.jsp");
         rd.forward(req, resp);
@@ -48,4 +42,20 @@ public class UsuarioServlet extends HttpServlet {
     }
 
 
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String nome = req.getParameter("nome");
+        String email = req.getParameter("email");
+        String senha = req.getParameter("senha");
+
+        Usuario u = new Usuario(nome, email, senha);
+
+        if (new UsuarioService().inserir(u)){
+            RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/usuarios.jsp");
+            rd.forward(req, resp);
+        }
+        else{
+            System.out.println("é");
+        }
+
+    }
 }

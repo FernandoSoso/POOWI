@@ -34,9 +34,8 @@ public class UsuarioDAO {
     }
 
     public Usuario getUsuarioByAuth(String email, String senha){
-        ConectaDBPostgres cdb = new ConectaDBPostgres();
-
         try{
+            ConectaDBPostgres cdb = new ConectaDBPostgres();
             Statement stmt = cdb.getConexao().createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM usuario WHERE email = '" + email + "' AND senha = '" + senha + "'");
 
@@ -59,6 +58,26 @@ public class UsuarioDAO {
         }catch (SQLException e){
             e.printStackTrace();
             return null;
+        }
+    }
+
+    public boolean insertUsuario(Usuario usuario){
+        try {
+            ConectaDBPostgres cdb = new ConectaDBPostgres();
+
+            Statement stmt = cdb.getConexao().createStatement();
+            String sql =
+                    "INSERT INTO usuario(nome, email, senha, data_cadastro, ativo) " +
+                    "VALUES ('" + usuario.getNome() + "', '" + usuario.getEmail() + "', '" + usuario.getSenha() + "'" +
+                    ", current_date, true)";
+
+            stmt.execute(sql);
+
+            return true;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            return false;
         }
     }
 }
