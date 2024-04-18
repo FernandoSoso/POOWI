@@ -3,12 +3,10 @@ package br.csi.dao;
 import br.csi.model.Usuario;
 import br.csi.util.ConectaDBPostgres;
 
-import java.sql.Array;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Dictionary;
 
 public class UsuarioDAO {
 
@@ -35,7 +33,7 @@ public class UsuarioDAO {
         return usuarios;
     }
 
-    public Usuario getUsuario(String email, String senha){
+    public Usuario getUsuarioByAuth(String email, String senha){
         ConectaDBPostgres cdb = new ConectaDBPostgres();
 
         try{
@@ -60,8 +58,7 @@ public class UsuarioDAO {
             }
         }catch (SQLException e){
             e.printStackTrace();
+            return null;
         }
-
-        return null;
     }
 }

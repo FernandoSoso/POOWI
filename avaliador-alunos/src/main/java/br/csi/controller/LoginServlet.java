@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
        if(new LoginService().logar(email, senha)){
 
            RequestDispatcher rd =
-                   req.getRequestDispatcher("WEB-INF/pages/dashbord.jsp");
+                   req.getRequestDispatcher("WEB-INF/pages/dashboard.jsp");
            rd.forward(req, resp);
 
        }else{
