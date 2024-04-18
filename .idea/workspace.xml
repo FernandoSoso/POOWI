@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="629e512f-b6f2-42e0-9df8-118aa7f91d56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/src/main/webapp/WEB-INF/pages/usuarios.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/20240418-144712835/standalone.v1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/20240418-144712835/standalone.v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/20240418-144712835/standalone.v3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/20240418-144712835/standalone.v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/current/standalone.v3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/current/standalone.v4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Nova pasta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/controller/UsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/controller/UsuarioServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/src/main/java/br/csi/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/log/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/tmp/avaliador-alunos.war/org/apache/jsp/WEB_002dINF/pages/dashbord_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/tmp/avaliador-alunos.war/org/apache/jsp/WEB_002dINF/pages/dashbord_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/tmp/avaliador-alunos.war/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/tmp/avaliador-alunos.war/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador-alunos/wildfly-31.0.1.Final/standalone/tmp/startup-marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildfly-31.0.1.Final/standalone/log/server.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2fHfIUyNyk84QDb1ity7MlJDuxO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aluno/Desktop/Nova pasta/avaliador-alunos",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="629e512f-b6f2-42e0-9df8-118aa7f91d56" name="Changes" comment="" />
+      <created>1713462845678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713462845678</updated>
+      <workItem from="1713462847998" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
