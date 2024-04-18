@@ -9,4 +9,7 @@ public class UsuarioService {
         return new UsuarioDAO().insertUsuario(usuario);
     }
 
+    public boolean excluir(int id) {
+        return new UsuarioDAO().excluir(id);
+    }
 }

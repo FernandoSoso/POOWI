@@ -80,4 +80,22 @@ public class UsuarioDAO {
             return false;
         }
     }
+
+    public boolean excluir(int id) {
+        try {
+            ConectaDBPostgres cdb = new ConectaDBPostgres();
+
+            Statement stmt = cdb.getConexao().createStatement();
+            String sql =
+                    "DELETE FROM usuario WHERE cod = " + id;
+
+            stmt.execute(sql);
+
+            return true;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            return false;
+        }
+    }
 }

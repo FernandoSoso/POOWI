@@ -30,11 +30,15 @@
         <th>Nome</th>
         <th>Email</th>
         <th>Ativo</th>
+        <th>Opções</th>
         <c:forEach var = "usuario" items="${dao.usuarios}">
             <tr>
                 <td>${usuario.nome}</td>
                 <td>${usuario.email}</td>
                 <td>${usuario.ativo}</td>
+                <td>
+                    <a href="usuarios?opcao=Excluir&&id=${usuario.id}">Excluir</a>
+                </td>
             </tr>
         </c:forEach>
     </table>

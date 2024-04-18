@@ -23,6 +23,26 @@ public class UsuarioServlet extends HttpServlet {
 
         UsuarioDAO dao = new UsuarioDAO();
 
+        String opcao = req.getParameter("opcao");
+
+        if (opcao != null){
+            if (opcao.equals("Excluir")){
+                int id = Integer.parseInt(req.getParameter("id"));
+
+                if (new UsuarioService().excluir(id)){
+                    req.setAttribute("retorno", "Cadastro excluido!");
+                }
+                else{
+                    req.setAttribute("retorno", "Erro ao excluir!");
+                }
+            }
+            else if (opcao.equals("Editar")){
+                int id = Integer.parseInt(req.getParameter("id"));
+
+
+            }
+        }
+
         RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/usuarios.jsp");
         rd.forward(req, resp);
 
@@ -49,13 +69,16 @@ public class UsuarioServlet extends HttpServlet {
 
         Usuario u = new Usuario(nome, email, senha);
 
+        RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/usuarios.jsp");
+
+
         if (new UsuarioService().inserir(u)){
-            RequestDispatcher rd = req.getRequestDispatcher("WEB-INF/pages/usuarios.jsp");
-            rd.forward(req, resp);
+            req.setAttribute("retorno", "Cadastro efetuado!");
         }
         else{
-            System.out.println("é");
+            req.setAttribute("retorno", "Erro ao cadastrar!");
         }
 
+        rd.forward(req, resp);
     }
 }
